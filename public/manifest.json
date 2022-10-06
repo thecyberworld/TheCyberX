@@ -1,0 +1,23 @@
+{
+  "name": "Thecyberhub",
+  "version": "0.4.0",
+  "description": "The all in one cyber security tool",
+  "browser_action": {
+    "default_title": "Thecyberhub",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "./thecyberworld-green01.png",
+      "32": "./thecyberworld-green01.png",
+      "48": "./thecyberworld-green01.png",
+      "128": "./thecyberworld-green01.png"
+    }
+  },
+  "icons": {
+    "16": "./thecyberworld-green01.png",
+    "32": "./thecyberworld-green01.png",
+    "48": "./thecyberworld-green01.png",
+    "128": "./thecyberworld-green01.png"
+  },
+  "manifest_version": 2,
+  "devtools_page": "devtools.html"
+}
