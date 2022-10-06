@@ -1,2 +1,2 @@
-# thecyberhub-ext
+# ThecyberX
 web extension
