@@ -68,3 +68,17 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #918E9B;
+  margin: 10px;
+}
+.footer a:hover{
+  color: #f9f9f9;
+}
