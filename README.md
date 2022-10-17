@@ -1,6 +1,8 @@
 # ThecyberX
 web extension
 
+Temporary readme file as a contributing guide.
+
 ![img.png](src/assets/img.png)
 
 `npm run build` to build the extension
