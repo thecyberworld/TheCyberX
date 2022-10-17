@@ -11,7 +11,7 @@ const Navbar = () => {
             </LogoContainer>
 
             <NavContent>
-                <h3>Navbar</h3>
+                <h3>The CyberX</h3>
             </NavContent>
 
             <GitHubIcon>
