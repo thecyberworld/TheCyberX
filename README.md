@@ -7,6 +7,7 @@ Temporary readme file as a contributing guide.
 
 `npm run build` to build the extension
 
+Open chrome browser and go to extensions
 ![img_1.png](src/assets/img_1.png)
 
 ![img_2.png](src/assets/img_2.png)
