@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const NavbarContainer = styled.div`
   position: absolute;
   top: 0;
-
+  z-index: 99;
   display: flex;
   justify-content: space-between;
   background: #2a2a2a;
@@ -26,10 +26,16 @@ export const Logo = styled.img`
   width: 2rem;
 `;
 
-export const GitHubIcon = styled.div`
+export const IconContainer = styled.div`
+font-size: 1.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 10%;
+`;
+
+export const Icon = styled.div`
   font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 10%;
+  margin-right: 1rem;
+  cursor: pointer;
 `;
