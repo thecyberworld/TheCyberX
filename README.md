@@ -1,7 +1,7 @@
 # ThecyberX
 
 <p align="center">
-<b> ThecyberX: web extension </b>
+<b> ThecyberX: Cyber security web extension </b>
 </p>
 
 ![ThecyberX](src/assets/img.png)
@@ -34,12 +34,12 @@ Before installation, please make sure you have already installed the following t
 ### 🛠️ Using the web extension
 
 1. Run `npm run build` to build the extension
-2. Go to extensions on chrome browser and enable `Developer mode`
+2. Go to extensions on chrome browser and enable `Developer mode`  
    ![img_2.png](src/assets/img_2.png)
-3. Click on `Load Unpacked` and select `dist` folder
-   ![img_3.png](src/assets/img_3.png)
+3. Click on `Load Unpacked` and select `dist` folder  
+   ![img_3.png](src/assets/img_3.png)  
    ![img_4.png](src/assets/img_4.png)
-4. Select `Thecyberhub` from extensions list to launch the webextension
+4. Select `Thecyberhub` from extensions list to launch the webextension  
    ![img_5.png](src/assets/img_5.png)
 
 ---
