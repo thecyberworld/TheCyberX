@@ -4,7 +4,7 @@
 <b> ThecyberX: Cyber security web extension </b>
 </p>
 
-![ThecyberX](src/assets/img.png)
+![ThecyberX](img.png)
 
 ---
 
@@ -26,8 +26,9 @@ Before installation, please make sure you have already installed the following t
 5. Run `npm run dev` to start the server
 6. Open the browser to visit the website at http://localhost:5173/
 
-> use 350 x 600 width to get the best result
-> ![img_6.png](src/assets/img_6.png)
+> use 800 x 600 width to get the best result
+> ![img_1.png](img_1.png)
+> ![img.png](img.png)
 
 ---
 
