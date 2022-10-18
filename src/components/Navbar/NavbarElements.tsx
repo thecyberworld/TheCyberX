@@ -37,8 +37,10 @@ width: 10%;
 export const GitHubIcon = styled.div`
   font-size: 1.5rem;
   margin-right: 1rem;
+  cursor: pointer;
 `;
 
 export const MenuToggleIcon = styled.div`
   font-size: 1.5rem;
+  cursor: pointer;
 `;
