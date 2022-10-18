@@ -1,6 +1,7 @@
 import React from 'react';
-import {BsGithub, BsGripVertical} from 'react-icons/bs';
-import { NavbarContainer, LogoContainer, GitHubIcon, Logo, NavContent, IconContainer, MenuToggleIcon } from "./NavbarElements";
+import { BsGithub } from 'react-icons/bs';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { NavbarContainer, LogoContainer, Logo, NavContent, IconContainer, Icon } from "./NavbarElements";
 import logo from "../../assets/thecyberworld-green01.png"
 import NavList from './NavList';
 
@@ -25,13 +26,13 @@ class Navbar extends React.Component {
                     </NavContent>
             
                     <IconContainer>
-                        <GitHubIcon>
+                        <Icon>
                             <BsGithub/>
-                        </GitHubIcon>
+                        </Icon>
             
-                        <MenuToggleIcon onClick={this.toggleMenu}>
-                            <BsGripVertical />
-                        </MenuToggleIcon>
+                        <Icon onClick={this.toggleMenu}>
+                            <AiOutlineMenu />
+                        </Icon>
                     </IconContainer>
 
                 </NavbarContainer>
