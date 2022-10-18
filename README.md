@@ -54,7 +54,7 @@ Before installation, please make sure you have already installed the following t
 
 ## 🛡️ License
 
-[thecyberhub.org](https://www.thecyberhub.org) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+TheCyberX is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Support
 
