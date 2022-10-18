@@ -9,8 +9,8 @@ const Homepage = () => {
     const DorkList3 = 'inurl:';
 
     // const searchDork = DorkList[0];
-    const [value, setValue] = useState(" ");
-    const [inurlValue, setInurlValue] = useState(" ");
+    const [value, setValue] = useState("");
+    const [inurlValue, setInurlValue] = useState("");
 
 
     const handleClick = () => {
