@@ -2,7 +2,7 @@ import React from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { AiOutlineMenu } from 'react-icons/ai';
 import { NavbarContainer, LogoContainer, Logo, NavContent, IconContainer, Icon } from "./NavbarElements";
-import logo from "../../assets/thecyberworld-green01.png"
+import logo from "../../assets/thecyberworld_tcx.png"
 import NavList from './NavList';
 
 class Navbar extends React.Component {
