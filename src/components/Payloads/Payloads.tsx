@@ -20,12 +20,12 @@ const Payloads = () => {
         '<a draggable="true" ondragenter="alert(1)">test</a>',
         '<a draggable="true" ondragleave="alert(1)">test</a>',
         '<a draggable="true" ondragstart="alert(1)">test</a>',
-    '<a onmouseenter="alert(1)">test</a>',
-    '<a onmouseleave="alert(1)">test</a>',
-    '<a onmousemove="alert(1)">test</a>',
-    '<a onmouseout="alert(1)">test</a>',
-    '<a onmouseover="alert(1)">test</a>',
-    '<a onmouseup="alert(1)">test</a>',
+        '<a onmouseenter="alert(1)">test</a>',
+        '<a onmouseleave="alert(1)">test</a>',
+        '<a onmousemove="alert(1)">test</a>',
+        '<a onmouseout="alert(1)">test</a>',
+        '<a onmouseover="alert(1)">test</a>',
+        '<a onmouseup="alert(1)">test</a>',
     ];
 
     const [state, setState] = useState({
@@ -51,12 +51,8 @@ const Payloads = () => {
     return (
         <PayloadsContainer>
             <PayloadsHeading>Payloads</PayloadsHeading>
-
             {PayloadsListMap}
-
-
             {state.copied ? <span style={{color: 'red'}}>Copied.</span> : null}
-
         </PayloadsContainer>
     );
 };

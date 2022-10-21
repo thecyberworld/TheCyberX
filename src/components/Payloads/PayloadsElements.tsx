@@ -20,7 +20,6 @@ export const CopyToClipboardIcon = styled.div`
     margin: 22px 0 0 5px;
     font-size: 25px;
 `;
-
 export const PayloadsCopyToClipboard = styled.div`
     display: flex;
 
