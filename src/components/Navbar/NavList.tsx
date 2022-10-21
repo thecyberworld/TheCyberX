@@ -3,6 +3,7 @@ import { NavItem, NavListContainer } from "./NavListElements";
 
 const navItems = [
 	{ to: '', title: 'Home' },
+	{ to: 'googleDorks', title: 'Google Dorks' },
 	{ to: 'payloads', title: 'Payloads' },
 	{ to: 'tools', title: 'Tools' },
 	{ to: 'sec-list', title: 'SecList' },
