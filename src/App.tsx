@@ -1,7 +1,7 @@
 import React from 'react'
-import {Route, Routes, useLocation} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
 
-import { Navbar, Footer, Payloads, SecList, Tools, Homepage } from './components/';
+import {Footer, Homepage, Navbar, Payloads, SecList, Tools} from './components/';
 
 const xssPayloads = [
     'onload=alert(1)><svg/1=',
