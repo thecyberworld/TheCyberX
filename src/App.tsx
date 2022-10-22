@@ -1,7 +1,7 @@
 import React from 'react'
 import {Route, Routes} from "react-router-dom";
 
-import {Footer, Homepage, Navbar, Payloads, SecList, Tools} from './components/';
+import {Footer, Homepage, Navbar, GoogleDorks, Payloads, SecList, Tools} from './components/';
 
 const xssPayloads = [
     'onload=alert(1)><svg/1=',
@@ -14,6 +14,7 @@ const App = () => {
             <Navbar/>
             <Routes>
                 <Route path={"/*"} element={<Homepage/>}></Route>
+                <Route path={"/googleDorks/*"} element={<GoogleDorks/>}></Route>
                 <Route path={"/payloads/*"} element={<Payloads/>}></Route>
                 <Route path={"/tools/*"} element={<Tools/>}></Route>
                 <Route path={"/sec-list/*"} element={<SecList/>}></Route>
