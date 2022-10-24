@@ -31,3 +31,11 @@ margin: 10px 0 10px 0;
 
 export const CopyToClipboard = styled.h2`
 `;
+
+export const CopiedText = styled.div`
+    color: red;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+`
